@@ -3,13 +3,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #371f36;
     color: white;
     gap: 100px;
 }
 
+body {
+    margin: 0px;
+}
+
 .header {
-    padding: 10px 150px;
+    padding: 16px 150px;
 }
 
 .main-info {
@@ -22,10 +26,12 @@
 }
 
 .logo,
-.header-links,
-.main-title,
-#top-image {
+.header-links {
     flex-shrink: 0;
+}
+
+.header-links {
+    align-self: flex-end;
 }
 
 ul {
@@ -38,18 +44,16 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 #top-image {
     width: 400px;
-
 }
 
 .main-title {
-    width: 400px;
+    max-width: 500px;
     font-size: 48px;
     font-weight: bolder;
 
@@ -88,17 +92,61 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
     gap: 50px;
+    margin: 50px 150px;
+}
+
+.image-block-title {
+    white-space: nowrap;
 }
 
 .image-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
 .info-subtext {
     width: 150px;
     text-align: center;
+}
+
+.img-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+
+    display: flex;
+    width: 850px;
+    height: 200px;
+    min-width: 850px;
+    padding: 50px 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Verdana, "New Times Roman", sans-serif;
+}
+
+.quote-by {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
 }
