@@ -160,7 +160,8 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    width: 800px;
+    font-family: Verdana, "New Times Roman", sans-serif;
+    width: 900px;
     height: 130px;
     margin: 50px;
     color: #eaecf1;
@@ -173,6 +174,7 @@ button {
 .call-to-action-subtext {
     font-size: 15px;
     color: #E5E7EB;
+    margin-top: 8px;
 }
 
 .bottom-button button {
@@ -184,4 +186,17 @@ button {
     justify-content: center;
     align-items: center;
     min-width: 1000px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+}
+
+.copyright {
+    margin: 50px;
 }
